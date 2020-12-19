@@ -1,0 +1,10 @@
+{
+    "name": "php-project",
+    "authors": [
+        {
+            "name": "just_evv"
+        }
+    ],
+    "description": "first php-project",
+    "require": {}
+}
