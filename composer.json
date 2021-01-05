@@ -1,10 +1,26 @@
 {
-    "name": "php-project",
+    "name": "hex/example",
+    "description": "example package",
     "authors": [
         {
             "name": "just_evv"
         }
     ],
-    "description": "first php-project",
-    "require": {}
+
+    "autoload": {
+        "files":[
+            "src/Runner.php"
+        ]
+    },
+    
+    "require": {
+        "tightenco/collect": "^8.19"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }
